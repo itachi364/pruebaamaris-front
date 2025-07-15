@@ -119,11 +119,5 @@ Asegúrate de **reiniciar el servidor** después de cualquier cambio en `.env`.
 ```bash
 npm run build     # Compila el proyecto para producción
 npm run start     # Inicia servidor local en desarrollo
-serverless deploy # Despliega en AWS S3
+npx serverless client deploy # Despliega en AWS S3
 ```
-
----
-
-## 📄 Licencia
-
-Este proyecto es parte de una prueba técnica y su uso es exclusivamente con fines educativos o evaluativos.
