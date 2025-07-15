@@ -121,3 +121,9 @@ npm run build     # Compila el proyecto para producción
 npm run start     # Inicia servidor local en desarrollo
 npx serverless client deploy # Despliega en AWS S3
 ```
+---
+
+## 👨‍💻 Desarrollado por
+
+**Michael Vanegas**  
+Backend Senior Developer  
