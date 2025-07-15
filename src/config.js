@@ -1,0 +1,1 @@
+export const API_BASE_URL = process.env.REACT_APP_API_URL || "https://a2hfg1f856.execute-api.us-east-1.amazonaws.com/dev/api";

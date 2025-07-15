@@ -1,0 +1,18 @@
+service: frontend-fondos
+
+provider:
+  name: aws
+  region: us-east-1
+
+plugins:
+  - serverless-finch
+
+custom:
+  client:
+    bucketName: frontend-fondos-bucket-michael   # 🔥 Debe ser único a nivel mundial
+    distributionFolder: build                    # Carpeta generada por `npm run build`
+    indexDocument: index.html
+    errorDocument: index.html
+    acl: public-read                              # Opción para acceso público
+    tags:
+      Project: frontend-fondos
