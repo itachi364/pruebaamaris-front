@@ -9,10 +9,10 @@ plugins:
 
 custom:
   client:
-    bucketName: frontend-fondos-bucket-michael   # 🔥 Debe ser único a nivel mundial
-    distributionFolder: build                    # Carpeta generada por `npm run build`
+    bucketName: frontend-fondos-bucket-michael   
+    distributionFolder: build                    
     indexDocument: index.html
     errorDocument: index.html
-    acl: public-read                              # Opción para acceso público
+    acl: public-read                              
     tags:
       Project: frontend-fondos
